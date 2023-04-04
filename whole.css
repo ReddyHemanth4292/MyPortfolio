@@ -1,0 +1,166 @@
+/* css for navigation bar */
+body{
+    margin: 0%;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-items{
+    font-size: 5mm;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 19.5cm;
+}
+.nav-items a{
+    padding-left: 50px;
+    margin-right: 0%;
+    color: aliceblue;
+
+}
+/* end of navigation bar */
+
+
+/* css for home */
+div{
+    color: red;
+    font-size: 20mm;
+    font-family: 'Times New Roman', Times, serif;
+}
+div a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+#hello{
+    margin: 125px 100px 0px 100px;
+    position: absolute;
+}
+#name{
+    position: absolute;
+    padding: 10px 160px ;
+    margin: 200px 0px 0px 70px
+}
+#name a{
+    font-size: 45px;
+    padding-right: 20px;
+    
+}
+#role{
+    padding: 0px 0px 0px 450px;
+    font-size: 9mm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: indianred;
+    position: absolute;
+    margin: 310px 0px 0px 100px;
+}
+#here{
+    width: 100%;
+    height: 568px;
+    background-color: black;
+}
+
+/* end of home */
+
+
+/* css for about */
+.text {
+    position: absolute;
+    margin: 50px 0px 0px 500px;
+    text-align: left;
+    font-size: 6mm;
+    
+}
+
+.box {
+    background-color: bisque;
+    width: 100%;
+    height: 18cm;
+}
+
+img {
+    border-radius: 50%;
+    position: absolute;
+    margin: 75px 0px 0px 100px;
+}
+
+.details {
+    position: absolute;
+    margin: 250px 0px 0px 300px;
+}
+
+
+#years {
+    padding-left: 70%;
+    font-weight: bolder;
+}
+.table{
+    padding: 3px 40px;
+    text-align: left;
+    z-index: 1;
+}
+#top{
+    border-top:2px solid red ;
+    padding: 20px 35px;
+    font-size: 20px;
+}
+.the{
+    border-top: none;
+}
+
+/* end of about */
+
+/* css for skills */
+.skill{
+    color: aliceblue;
+    background-color: green;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    font-size: 20px;
+    padding: 50px;
+}
+
+table input{
+    width: 375px;
+    height: 50px;
+}
+
+#lang{
+    text-align: right;
+    padding-right: 25px;
+}
+
+/* end of skills */
+
+/* css for footer */
+footer{
+    margin-top: 20px;
+    z-index: 1;
+    height: 30mm;
+}
+span a{
+    margin-top: 20mx;
+    padding: 20px 50px 20px 50px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: aquamarine;
+}
+a:active{
+    color: darkmagenta;
+}
+/* end of footer */
